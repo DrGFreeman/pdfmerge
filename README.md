@@ -7,6 +7,8 @@ This packages resolves the problem of merging documents of odd and even pages re
 1. Flip the document over and scan even pages into `even.pdf`. This will scan the even pages in reverse order (e.g. pages 8, 6, 4 & 2).
 1. Combine the odd and even pages with `pdfmerge odd.pdf even.pdf [merged.pdf]`.
 
+The resulting document will have the pages merged in the correct order (e.g. 1-8).
+
 ## Installation
 
 This packages uses the `pdftk` linux tool. On Ubuntu >= 18.10, it can be installed with `sudo apt install pdftk`.
