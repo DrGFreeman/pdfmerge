@@ -7,4 +7,5 @@ setup(
     packages=find_packages(),
     entry_points={"console_scripts": ["pdfmerge=pdfmerge.__main__:run"]},
     python_requires=">=3.6",
+    install_requires=["PyPDF3>=1.0.3"],
 )
