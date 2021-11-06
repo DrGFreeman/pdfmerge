@@ -1,4 +1,8 @@
 black==19.10b0
 flake8==3.8.4
 isort==5.7.0
+nox
+pdfminer.six
 pre-commit
+pytest
+pytest-cov
