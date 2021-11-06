@@ -14,16 +14,10 @@ The resulting document will have the pages merged in the correct order (e.g. 1-8
 
 ## Installation
 
-This packages uses the `pdftk` linux tool. On Ubuntu >= 18.10, it can be installed with:
-
-```
-sudo apt install pdftk
-```
-
 Install the package from git using pip:
 
 ```
-python3 -m pip install git+https://github.com/DrGFreeman/pdfmerge.git
+python -m pip install git+https://github.com/DrGFreeman/pdfmerge.git
 ```
 
 Python version 3.6 or greater is required.
